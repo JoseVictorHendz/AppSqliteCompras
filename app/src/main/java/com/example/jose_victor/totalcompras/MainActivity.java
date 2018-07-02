@@ -115,8 +115,6 @@ public class MainActivity extends AppCompatActivity {
 
                 }
 
-                Toast.makeText(MainActivity.this, "Produto exluido com sucesso", Toast.LENGTH_LONG).show();
-
                 limpaCampos();
                 listarProdutos();
                 listarProdutos();
