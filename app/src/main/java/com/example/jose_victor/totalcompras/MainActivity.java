@@ -174,7 +174,8 @@ public class MainActivity extends AppCompatActivity {
 
             adapter.notifyDataSetChanged();
 
-            valorTotal += p.getPreco();
+            valorTotal += (p.getPreco() * p.getQtd());
+
         }
 
         editTotal.setText("Valor total: " + valorTotal);
